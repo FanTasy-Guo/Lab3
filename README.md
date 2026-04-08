@@ -133,9 +133,9 @@ CPU 与 GPU 之间每帧只发生 **1 次** `from_numpy` 通信（Batching），
 ## 效果展示
 ### 1.以下是贝塞尔曲线效果展示：
 <div align="center">
-  <img src="gif3/0.gif" width="250">
-  <img src="gif3/1.gif" width="250">
-  <img src="gif3/1.5.gif" width="250">    
+  <img src="gif3/0.gif" width="320">
+  <img src="gif3/1.gif" width="320">
+  <img src="gif3/1.5.gif" width="320">    
 </div>
 
 ### 2.以下是加了反走样和B样条的效果展示：
