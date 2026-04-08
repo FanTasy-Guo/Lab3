@@ -131,25 +131,25 @@ CPU 与 GPU 之间每帧只发生 **1 次** `from_numpy` 通信（Batching），
 
 ---
 ## 效果展示
-以下是贝塞尔曲线效果展示：
+### 1.以下是贝塞尔曲线效果展示：
 <div align="center">
   <img src="gif3/0.gif" width="250">
-  <img src="gif/1.gif" width="250">
-  <img src="gif/1.5.gif" width="250">    
+  <img src="gif3/1.gif" width="250">
+  <img src="gif3/1.5.gif" width="250">    
 </div>
 
-以下是加了反走样和B样条的效果展示：
-1.反走样模式下的贝塞尔曲线（黄色）-> B样条曲线（蓝色）
+### 2.以下是加了反走样和B样条的效果展示：
+#### 反走样模式下的贝塞尔曲线（黄色）-> B样条曲线（蓝色）
 <div align="center">
   <img src="gif3/黄-B样条蓝.gif" width="600">  
 </div>
 
-2.反走样模式下的贝塞尔曲线（黄色）
+#### 反走样模式下的贝塞尔曲线（黄色）
 <div align="center">
   <img src="gif3/反走样开贝塞尔-黄.gif" width="600">  
 </div>
 
-3.无反走样的贝塞尔曲线
+#### 无反走样的贝塞尔曲线
 <div align="center">
   <img src="gif3/反走样关贝塞尔-绿.gif" width="600">  
 </div>
